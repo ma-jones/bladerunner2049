@@ -1,0 +1,280 @@
+body {
+  background-color: #D22F2B;
+}
+
+.navbar-nav .nav-link {
+background-color: black;
+}
+
+.navbar-brand {
+
+  margin-right: 0rem;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin: .3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-align: center;
+}
+
+header, .main-nav, nav
+{
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: wheat;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#margin-down{
+  padding-top: 100px;
+
+}
+
+.bg-colour {
+  background-color: #121313;
+}
+
+p {
+	font-size: .9em;
+	margin-bottom: .5em;
+	letter-spacing: 1px;
+	font-family: 'Carme', sans-serif;
+	line-height: 40px;
+	text-transform: uppercase;
+  font-stretch: extra-expanded;
+  color: #f9f9f9;
+}
+
+
+.h1, h1 {
+	font-size: 3.2em;
+	font-family: 'Orbitron', sans-serif;
+	color: #fff;
+}
+
+
+h2
+{
+	font-size: 1.8em;
+	font-family: 'Anton', sans-serif;
+	color: #f9f9f9;   
+}
+
+/*li h2 {
+	
+	font-size: 1.8em;
+	padding: 20px;
+	margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;	
+}*/
+
+h3,
+a {
+	font-size: 1em;
+	text-decoration: none;
+	font-family: 'Anton', sans-serif;
+	
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #111;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+h4 {
+	font-size: 1.2em;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+}
+
+
+.footer-inner p{
+	line-height: 20px;
+	font-size: 1em;
+	color: #f9f9f9;
+
+}
+
+.main-footer .col-md-12{
+	
+	margin-top: 50px;
+}
+
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+img{
+	padding: 0px;
+}
+
+.logo{
+	background-color: transparent;
+	margin: 15%;
+	width: 30%;
+}
+
+.img-thumbnail{
+	background-color: transparent;
+	border: none;
+	width: 400px;
+	margin-bottom: 30px;
+}
+		
+/*Paraxlla*/
+
+.para-img-1{
+  position: inherit;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+
+.para-img-2, .para-img-3, .para-img-4, .para-img-5, .para-img-6 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.para-img-1 {
+  background-image: url("images/underwater.png");
+}
+
+.para-img-2 {
+  background-image: url("images/blade-runner-2049-car-hero.jpg");
+  min-height: 600px;
+  width: 100%;
+}
+
+.para-img-3 {
+  background-image: url("images/blade-runner-2049-girl.jpg");
+  min-height: 600px;
+  width: 100%;
+}
+
+.para-img-4 {
+  background-image: url("images/blade-runner-2049-girl-boy.jpg");
+  min-height: 600px;
+  width: 100%;
+}
+
+.para-img-5 {
+  background-image: url("images/blade_runner_hang.jpg");
+  min-height: 600px;
+  width: 100%;
+}
+
+.para-img-6 {
+  background-image: url("images/blade_runner_rachael_deckard.jpg");
+  min-height: 600px;
+  width: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color: #f6f6f6;
+}
+
+.caption span.border {
+  background-color: transparent;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: 'Anton', sans-serif;
+  
+  
+}
+
+.main-footer {
+	
+	padding: 50px;
+	background-color: #000;
+	color: #f9f9f9;
+
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (min-width: 768px) {
+	
+
+}
+
+@media (min-width: 1500px) {
+
+}
+
+
+/* for 980px or less */
+@media screen and (max-width: 990px) {
+  
+.display-none{
+    display: none;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+		
+
+}
+
+@media screen and (min-width: 600px) {
+
+
+}
+
+/* 480px or less */
+@media screen and (max-width: 480px) {
+	
+  .logo{
+    width: 35%;
+    margin: 35% 0% 35% 0%;
+    padding: 60px 0px 0px 0px;
+  }
+
+  .para-img-1, .para-img-2, .para-img-3, .para-img-4, .para-img-5, .para-img-6 {
+    background-attachment: scroll;
+    opacity: 1.0;
+}
+
+}
+
+
+
+
+
